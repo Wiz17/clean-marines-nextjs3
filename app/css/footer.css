@@ -1,0 +1,25 @@
+@media all and (min-width: 250px) and (max-width: 570px) {
+
+.footer-logo{
+    width: 50px;
+}
+.footer-logo-name{
+    font-size: 32px;
+}
+.footer-bottom-image{
+    width: 200px;
+}
+}
+
+@media all and (min-width: 571px) {
+    .footer-logo{
+        width: 60px;
+    }
+    .footer-logo-name{
+        font-size: 42px;
+    }
+    .footer-bottom-image{
+        width: 300px;
+    }
+}
+
