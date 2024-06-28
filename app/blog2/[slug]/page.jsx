@@ -165,14 +165,14 @@ const Page1 = () => {
                 const restOfSentence = words.join(" ");
 
                 return (
-                  <div className="mt-5" style={{ color: "#3d52a0" }}>
+                  <div className="mt-5" key={index} style={{ color: "#3d52a0" }}>
                     <span className="font-bold text-3xl">{firstWord}</span>{" "}
                     {restOfSentence}
                   </div>
                 );
               } else {
                 return (
-                  <div className="mt-5" style={{ color: "#3d52a0" }}>
+                  <div className="mt-5" key={index} style={{ color: "#3d52a0" }}>
                     {data}
                   </div>
                 );
