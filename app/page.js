@@ -412,7 +412,7 @@ const Home = () => {
                       <div>
                         <div className="mt-4">
                           <p className="text-2xl font-bold font-normal text-blue-800 sm:text-3xl">
-                            Stayin' Alive
+                            Stayin Alive
                           </p>
 
                           <p className="mt-4 leading-relaxed text-gray-700">
